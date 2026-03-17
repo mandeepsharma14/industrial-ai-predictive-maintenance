@@ -1,0 +1,14 @@
+{
+  "dataset_rows": 14400,
+  "machines": 60,
+  "failure_model": {
+    "best_model_30d": "Random Forest",
+    "roc_auc": 0.8480882649717149,
+    "pr_auc": 0.7655839400028237,
+    "threshold": 0.6000000000000002
+  },
+  "anomaly_model": {
+    "rows_scored": 14400,
+    "anomaly_flags": 720
+  }
+}
