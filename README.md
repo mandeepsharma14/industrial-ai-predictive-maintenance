@@ -1,19 +1,28 @@
 
-# Industrial AI Predictive Maintenance
+# Industrial AI Control Tower
+## Predictive Maintenance | Digital Twin | Smart Manufacturing
 
 End‑to‑end industrial AI project that forecasts machine failures and estimates
 remaining useful life (RUL) using machine telemetry.
 
-## Features
+# Highlights
+• Predict machine failures before they happen; failure prediction for 7, 30, and 90 day horizons  
+• Estimate Remaining Useful Life prediction (RUL) 
+• Monitor entire factory in real time (Streamlit Dashboards)
+• AI-driven maintenance recommendations
+• Advanced AI extensions: anomaly detection, SHAP explainability, LSTM models 
 
-• Failure prediction for 7, 30, and 90 day horizons  
-• Remaining Useful Life prediction  
-• Streamlit dashboards for factory monitoring  
-• Advanced AI extensions: anomaly detection, SHAP explainability, LSTM models  
-• Real‑time factory dashboard simulation
+# Performance
+• ROC AUC: ~0.84
+• 60 machines
+• 14,400 time-series records
+
+# Core Idea
+This project simulates a factory AI Control Tower that prioritizes maintenance based on predictive 
+risk and operational impact, not just downtime.  
+
 
 ## Repository Structure
-
 ```
 data/
 src/
