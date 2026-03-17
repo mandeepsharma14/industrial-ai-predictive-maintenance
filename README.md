@@ -2,24 +2,69 @@
 # Industrial AI Control Tower
 ## Predictive Maintenance | Digital Twin | Smart Manufacturing
 
+Transform factory data into real-time operational decisions
+
 End‑to‑end industrial AI project that forecasts machine failures and estimates
 remaining useful life (RUL) using machine telemetry.
 
 # Highlights
 • Predict machine failures before they happen; failure prediction for 7, 30, and 90 day horizons  
 • Estimate Remaining Useful Life prediction (RUL) 
+• Detect anomalies in machine behavior
+• Prioritize maintenance across entire factory
 • Monitor entire factory in real time (Streamlit Dashboards)
 • AI-driven maintenance recommendations
 • Advanced AI extensions: anomaly detection, SHAP explainability, LSTM models 
 
 # Performance
-• ROC AUC: ~0.84
-• 60 machines
-• 14,400 time-series records
+• Model ROC AUC: ~0.84
+• Monitored 60 machines with 14,400 data points
+• Failure horizons 7/30/90 days
 
 # Core Idea
 This project simulates a factory AI Control Tower that prioritizes maintenance based on predictive 
 risk and operational impact, not just downtime.  
+
+Traditional manufacturing struggles with:
+• Reactive maintenance
+• Unplanned downtime
+• Lack of actionable insights
+
+This platform introduces:
+• Predictive Intelligence
+• Real-time decision-making
+• AI-driven maintenance prioritization
+
+# How It Works
+1. Collect machine telemetry
+2. Engineer predictive features
+3. Train ML models
+4. Generate failure risk + RUL
+5. Visualize insights in dashboards
+6. Recommend maintenance actions
+
+# Why It Matters
+This is not just analytics - it's an AI-powered decision system for manufacturing.
+
+# ROI/Cost Savings Model
+Assumptions:
+* Plant has 60 machines
+* Avg downtime per failure = 4 hours
+* Cost per hour downtime = $5,000
+* Failure per year = 100 events
+
+  Current Cost: Total downtime cost = 100 x 4 x $5,000 = $2,000,000 per year
+
+With AI System, assume:
+* 25% failures prevented
+* 20% downtime reduction
+
+  Savings from prevention = $500,000
+  Savings from reduction = $300,000
+  Total savings = $800,000/year
+
+# Even a modest 20-30% improvement in failure prediction can translate into hundreds
+# of thousands of dollars in annual savings for a mid-size plant. 
 
 
 ## Repository Structure
