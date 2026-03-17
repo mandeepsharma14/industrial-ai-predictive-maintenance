@@ -1,0 +1,15 @@
+{
+  "dataset_rows": 14400,
+  "machines": 60,
+  "failure_model": {
+    "roc_auc": 0.8435566070490779,
+    "pr_auc": 0.7466326643763055,
+    "avg_probability": 0.49848573233218424,
+    "positive_events_test": 1029,
+    "records_test": 2700
+  },
+  "anomaly_model": {
+    "rows_scored": 14400,
+    "anomaly_flags": 720
+  }
+}
