@@ -59,8 +59,7 @@ With AI System, assume:
 * 25% failures prevented
 * 20% downtime reduction
 
-  Savings from prevention = $500,000
-  Savings from reduction = $300,000
+  Savings from prevention = $500,000 + Savings from reduction = $300,000
   Total savings = $800,000/year
 
 ## Even a modest 20-30% improvement in failure prediction can translate into hundreds of thousands of dollars in annual savings for a mid-size plant. 
